@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.evaluategraph.ArcView
+        android:id="@+id/arc"
+        android:layout_width="524dp"
+        android:layout_height="282dp"
+        android:lineSpacingExtra="30dp"
+        android:padding="20dp"
+        app:evaluate="太棒了，继续加油"
+        app:evaluateTextSize="24sp"
+        app:score="10"
+        app:scoreTextSize="60sp"
+        app:title="总评测"
+        app:titleTextSize="24sp" />
+    <!--<com.example.evaluategraph.TextShaderVaiew
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+    <!--<com.example.evaluategraph.ShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+    <!-- <com.example.evaluategraph.MultiLineText
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />-->
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

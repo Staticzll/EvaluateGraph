@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcView">
+        <attr name="title" format="string" />
+        <attr name="score" format="float" />
+        <attr name="evaluate" format="string" />
+        <attr name="strokeWidth" format="float" />
+        <attr name="scoreTextSize" format="dimension" />
+        <attr name="evaluateTextSize" format="dimension" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="android:lineSpacingExtra" />
+    </declare-styleable>
+</resources>
